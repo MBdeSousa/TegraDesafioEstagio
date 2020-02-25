@@ -1,0 +1,84 @@
+.firstRow {
+    background-color: #ffffff;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+label {
+    opacity: 70%;
+    margin-left: 5px;
+}
+
+.inputs {
+    padding: 5px;
+    border: 1px solid #DBDBDB;
+    background: none;
+    border-radius: 0;
+    margin: 5px 0;
+    opacity: 60%;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.dateInput {
+    padding: 5px;
+    border: 1px solid #DBDBDB;
+    background: none;
+    border-radius: 0;
+    margin: 5px 0 0;
+    opacity: 60%;
+    width: 50%;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.secondRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.goButton {
+    background-color: #0078D7;
+    border: 0;
+    color: #ffff;
+    border-radius: 0;
+    height: 30px;
+    width: 30%;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.goButton:hover {
+    opacity: 80%;
+}
+
+.resultContainer {
+    background-color: #ffffff;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 60px auto;
+    text-align: left;
+}
+
+.flyButton {
+    background-color: #ECA04A;
+    border: 0;
+    color: #ffff;
+    border-radius: 0;
+    height: 30px;
+    width: 30%;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.data {
+    margin-top: 7px;
+}
