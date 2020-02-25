@@ -5,19 +5,17 @@ const INITIAL_STATE: IState = {
 }
 
 interface IState {
-	fromValue: string	
+	fromValue: string
 }
 
-	//Action responsible for fetching the API and adding its content to the state of the application
+//Action responsible for fetching the API and adding its content to the state of the application
 export function getFromValueAction(value) {
-	return async function (dispatch) {	
-
-			const getFromValueActionSucceeded = {
-				type: GET_FROM_VALUE_SUCCEEDED,
-				payload: value
-			}
-			dispatch(getFromValueActionSucceeded);	
+	return async function (dispatch) {
+		const getFromValueActionSucceeded = {
+			type: GET_FROM_VALUE_SUCCEEDED,
+			payload: value
 		}
+		dispatch(getFromValueActionSucceeded);
 	}
 }
 

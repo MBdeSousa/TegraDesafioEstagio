@@ -68,6 +68,12 @@ label {
     text-align: left;
 }
 
+.flyButtonContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
 .flyButton {
     background-color: #ECA04A;
     border: 0;

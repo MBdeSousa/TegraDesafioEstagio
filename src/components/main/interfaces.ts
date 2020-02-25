@@ -1,5 +1,3 @@
-//Obsolete
-
 export interface IFlights{
 	numero_voo: string,
 	aeroporto_origem: string,

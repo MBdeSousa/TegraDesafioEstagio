@@ -10,7 +10,7 @@ function Result() {
 	//DOM elements
 	//TO DO - Remove hard code
 	return (
-		<>
+		<>			
 			<div className="resultContainer">
 				<span className="price"><b>Total price: U$ 369.19</b></span>
 				<span className="data">Arrival time: 7:00 pm</span>
@@ -18,8 +18,9 @@ function Result() {
 				<span className="data">Date of departure: Feb 10th, 2019</span>
 				<span className="data">From: Aeroporto Internacional Juscelino Kubitschek</span>
 				<span className="data">To: Aeroporto Internacional Hercílio Luz</span>
-
-				<button className="flyButton">Fly</button>
+				<div className="flyButtonContainer">
+					<button className="flyButton">Fly</button>
+				</div>
 			</div>
 		</>
 	);
